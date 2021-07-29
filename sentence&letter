@@ -11,7 +11,7 @@ public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
 		System.out.println("enter a full sentence");
-		String sentence = scan.nextLine();
+		String sentence = scan.nextLine().toLowerCase();
 		
 		System.out.println("enter a letter");
 		char letter = scan.next().toLowerCase().charAt(0);
